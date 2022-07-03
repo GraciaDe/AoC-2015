@@ -1,10 +1,6 @@
-from itertools import count
-
-
 with open("delivery route.txt") as file:
     directions = file.read()
 
-print(directions[1])
 
 x = 0
 y = 0
